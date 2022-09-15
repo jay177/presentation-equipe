@@ -1,14 +1,149 @@
-.blur {
-    --tw-blur: blur(8px);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-  }
-  
-  .blur-md {
-    --tw-blur: blur(12px);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-  }
-  
-  .blur-none {
-    --tw-blur: blur(0);
-    filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    
+}
+.container .card{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(45deg,black ,red);
+}
+.container .card img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5S;
+}
+.container .card:hover img{
+    left: 72%;
+    height: 500px;
+
+}
+.container .card .containt{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    visibility: hidden;
+}
+.container .card:hover .containt{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.container .card .containt h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+.container .card .containt p{
+    color: black;
+}
+.container .card .containt a{
+    position: relative;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+@media(max-width:991px){
+    .container .card{
+        width: auto;
+        max-width: 600px;
+        align-items: flex-start;
+    }
+    .container .card:hover{
+        height: 600px;
+    }
+    .container .card:hover img{
+        left: 50%;
+        height: 350px;
+    }
+    .container .card .containt{
+        width: 100%;
+        left: 0;
+        padding: 40%;
+
+    }
+}
+@media(max-width:767px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .container .card{
+        width: auto;
+        max-width: 600px;
+        margin: 40px 20px;
+
+    }
+}
+@media(max-width:420px){
+    .container .card .containt{
+        padding: 30px;
+    }
+    .container .card:hover img{
+        height: 300px;
+    }
+
+}
+.container#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+.container a{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+#popup, #popupp{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+
+
+}
+#popup, #popupp h1{
+    color: red;
+}
+#popup.active, #popupp.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+
+}
