@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
+    
 }
 
 
@@ -21,7 +23,7 @@
     transition: 0.5s;
     justify-content: flex-start;
     align-items: center;
-    background: linear-gradient(45deg,black ,red);
+    background: linear-gradient(45deg,black ,rgb(32, 89, 175));
 }
 .container .card img{
     position: absolute;
