@@ -9,7 +9,6 @@
 </head>
 
 <body>
-    <?php include_once '../PHP/menu.php' ?>
     
 </body>
 
