@@ -32,7 +32,7 @@ body{
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: 400px;
+    height: 350px;
     transition: 0.5S;
 }
 .container .card:hover img{
@@ -142,7 +142,7 @@ body{
 
 }
 #popup, #popupp h1{
-    color: red;
+    color: aliceblue;
 }
 #popup.active, #popupp.active{
     top: 50%;
@@ -150,6 +150,50 @@ body{
     opacity: 1;
     transition: 0.5s;
 }
+
+footer{
+    background: linear-gradient(45deg,black ,rgb(0, 38, 96));
+    color: aliceblue;
+    width: 100vw;
+    padding-top: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer h3{
+    text-transform: capitalize;
+}
+
+.footer p{
+    display: flex;
+    margin: 1rem;
+}
+
+.social_media{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 2rem 0;
+}
+
+.social_media li{
+    margin: 0 10px;
+}
+
+.social_media a{
+    color: aliceblue;
+}
+
+
+
+
 
 
 
