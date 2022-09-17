@@ -27,7 +27,9 @@
      
         <div id="popup">
            <h2>L'histoire de Antoine </h2>
-           
+           <p>j'ai connue antoine il n'ya que quelque jour a la rentrée du coup nous avons fait des traveaux ensemble</p>
+           <p>donc j'apprend tourjour a le connaitre je ne sait pour l'instant pas grand chose mais je sais qu'il vien du même lycée </p>
+           <p>que yanis eux ce connaise </p>
            <a href="#" onclick="toggle()">Close</a>
         </div>
         
