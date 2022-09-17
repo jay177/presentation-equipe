@@ -29,3 +29,7 @@
            <p> Pres <br> lore. <br>  pres. <br> Hpres. <br> pres</p>
            <a href="#" onclick="toggle()">Close</a>
         </div>
+
+        <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
