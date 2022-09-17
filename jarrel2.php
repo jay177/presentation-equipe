@@ -10,9 +10,23 @@
 <body>
     <?php include_once 'PHP/menu.php'; ?>
     
-    <h1>Présentation de Jarrel</h1>
-    <h2>L'histoire de Yanis </h2>
-         <p>Jarrel à 21 ans et étudie à l'IIM Digital School en Coding & Digital Innovation afin de pouvoir devenir Chef De Projet</p>	   
+    <div class="container" id="blur">
+        <div class="card">
+           <div class="containt">
+              <h2>Jarrel</h2>
+              <p> </p>
+              <a href="#" onclick="toggle()">Info</a>
+     
+           </div>
+           <img src="IMG/jarrel.png" alt="">
+        </div>
+     </div>
+     
+        <div id="popup">
+           <h2>Presentation Jarrel</h2>
+           <p>Jarrel à 21 ans et étudie à l'IIM Digital School en Coding & Digital Innovation afin de pouvoir devenir Chef De Projet</p>
+           <a href="#" onclick="toggle()">Close</a>
+        </div>
 
 </body>	
     	
