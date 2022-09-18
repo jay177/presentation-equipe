@@ -31,14 +31,16 @@
            <p>donc j'apprend tourjour a le connaitre je ne sait pour l'instant pas grand chose mais je sais que lui et yanis vienne du même lycée </p>
            <p>j'ai récament qu'il aimait beaucoup la musique </p>
            <figure>
-    <figcaption>Listen to the T-Rex:</figcaption>
+    <figcaption>je vous mets l'un des morceaux favorie d'antoine </figcaption>
     <audio
         controls
         src="/media/cc0-audio/t-rex-roar.mp3">
-            Your browser does not support the
+            votre navigateur ne supporte pas cette 
             <code>audio</code> element.
     </audio>
 </figure>
+
+         <h2>j'spere que vous vous avez appréciez ce morceaux maintenant passons au ambition d'antoine </h2>
 
            <a href="#" onclick="toggle()">Close</a>
         </div>
