@@ -21,7 +21,7 @@
             <a href="#" onclick="toggle()">+ d'info</a>
    
          </div>
-         <img src="/img/YanisCartoon.jpg" alt="Yanis">
+         <img src="img/YanisCartoon.jpg" alt="Yanis">
          
       </div>
    </div>  
