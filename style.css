@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+/* header */
+
+body, .header, .menu a {
+    transition: .7s ease all;
+    
+    
+  }
+
+  .header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      background-color: linear-gradient(90deg,rgb(32, 89, 175),black);
+      justify-content: space-between;
+  }
+  
+.menu {
+      display: flex;
+      width:  100%;
+      margin: 0 25px;
+      list-style: none;
+}
+  
+  .menu  li {
+      margin: 30px auto;
+      overflow: hidden;
+}
+  
+.menu a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #003fe6;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    transition: transform 0.4s;
+    background-color: transparent;
+}
+
+  
+.menu  a::before {
+      content: attr(data-text);
+      position: absolute;
+      top: 100%;
+  }
+  
+.menu  a:hover {
+      transform: translateY(-100%);
+  }
+  
+.menu  li a:after {
+      content: '';
+      height: 2px;
+      width: 0px;
+      background-color: rgb(50, 196, 240);
+      position: absolute;
+      bottom: -22px;
+      right: 0;
+      transition: 0.3s width ease-in-out;
+  }
+  
+.menu  li a:hover:after, .menu  li a.active:after {
+      width: 100%;
+  }
+
+/* popup */
+body{
+    background: linear-gradient(45deg,rgb(32, 89, 175),black);
+}
+
+.container{
+    position: relative;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    display: flex;
+    
+}
+.container .card{
+    position: relative;
+    width: 600px;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    transition: 0.5s;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(45deg,black ,rgb(32, 89, 175));
+}
+.container .card img{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 400px;
+    transition: 0.5S;
+}
+.container .card:hover img{
+    left: 72%;
+    height: 500px;
+
+}
+.container .card .containt{
+    position: relative;
+    width: 50%;
+    left: 20%;
+    padding: 20px 20px 20px 40px;
+    transition: 0.5s;
+    visibility: hidden;
+}
+.container .card:hover .containt{
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.container .card .containt h2{
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.2em;
+    line-height: 1em;
+}
+.container .card .containt p{
+    color: black;
+}
+.container .card .containt a{
+    position: relative;
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+@media(max-width:991px){
+    .container .card{
+        width: auto;
+        max-width: 600px;
+        align-items: flex-start;
+    }
+    .container .card:hover{
+        height: 600px;
+    }
+    .container .card:hover img{
+        left: 50%;
+        height: 350px;
+    }
+    .container .card .containt{
+        width: 100%;
+        left: 0;
+        padding: 40%;
+
+    }
+}
+@media(max-width:767px){
+    .container{
+        flex-direction: column-reverse;
+    }
+    .container .card{
+        width: auto;
+        max-width: 600px;
+        margin: 40px 20px;
+
+    }
+}
+@media(max-width:420px){
+    .container .card .containt{
+        padding: 30px;
+    }
+    .container .card:hover img{
+        height: 300px;
+    }
+
+}
+.container#blur.active{
+    filter: blur(20px);
+    pointer-events: none;
+    user-select: none;
+}
+.container a{
+    position: relative;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+#popup, #popupp{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    background: black;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+
+
+
+}
+#popup, #popupp h1{
+    color: white;
+    text-align: center;
+}
+#popup.active, #popupp.active{
+    top: 50%;
+    visibility: visible;
+    opacity: 1;
+    transition: 0.5s;
+
+}
