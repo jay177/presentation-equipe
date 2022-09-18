@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<?php include_once 'PHP/menu.php'; ?>
     <h1>
         antoine
     </h1>
