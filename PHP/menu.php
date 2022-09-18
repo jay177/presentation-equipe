@@ -12,19 +12,16 @@
             
             <ul class="menu">
                 <li>
-                    <a href="index.php" data-text="Accueil">Accueil</a>
+                    <a href="antoine.php" data-text="Antoine">Antoine</a>
                 </li>
                 <li>
-                    <a href="Antoine.php" data-text="Antoine">Antoine</a>
+                    <a href="jarrel2.php" data-text="Jarrel">Jarrel</a>
                 </li>
                 <li>
-                    <a href="Jarrel.php" data-text="Jarrel">Jarrel</a>
+                    <a href="denis.php" data-text="Denis">Denis</a>
                 </li>
                 <li>
-                    <a href="Denis.php" data-text="Denis">Denis</a>
-                </li>
-                <li>
-                    <a href="Yanis.php" data-text="Yanis">Yanis</a>
+                    <a href="yanis.php" data-text="Yanis">Yanis</a>
                 </li>
             </ul>
 </header>
