@@ -9,9 +9,7 @@
 </head>
 <body>
 <?php include_once 'PHP/menu.php'; ?>
-    <h1>
-        antoine
-    </h1>
+  
 
     <div class="container" id="blur">
         <div class="card">

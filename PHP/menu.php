@@ -12,7 +12,7 @@
             
             <ul class="menu">
                 <li>
-                    <a href="antoine.php" data-text="Antoine">Antoine</a>
+                    <a href="./antoine.php" data-text="Antoine">Antoine</a>
                 </li>
                 <li>
                     <a href="jarrel2.php" data-text="Jarrel">Jarrel</a>
