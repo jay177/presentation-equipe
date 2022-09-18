@@ -5,26 +5,9 @@
    <link rel="stylesheet" href="styleY.css">
    
 </head>
-<header class="header">
-            
-            <ul class="menu">
-                <li>
-                    <a href="antoine.php" data-text="Antoine">Antoine</a>
-                </li>
-                <li>
-                    <a href="jarrel2.php" data-text="Jarrel">Jarrel</a>
-                </li>
-                <li>
-                    <a href="denis.php" data-text="Denis">Denis</a>
-                </li>
-                <li>
-                    <a href="yanis.php" data-text="Yanis">Yanis</a>
-                </li>
-            </ul>
-</header>
+
 <body>
-   <h1>
-   </h1>
+<?php include_once 'PHP/menu.php'; ?>
    <div class="container" id="blur">
         <div class="card">
            <div class="containt">
