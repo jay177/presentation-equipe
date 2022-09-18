@@ -57,6 +57,6 @@
             </ul>
          </div>
       </footer>
-      <script type="text/javascript" src="scriptY.js"></script>
+      <script type="text/javascript" src="script.js"></script>
 </body>	
 </html>
