@@ -43,8 +43,15 @@
          <h2>j'spere que vous vous avez appréciez ce morceaux maintenant passons au ambition d'antoine </h2>
          <p>il a pour ambition de devenir un devloppeur full stack c'est a dire un devellopeur </p>
          <p>maitrisanant a certain nombre de language ce qui lui permmetra une grange polyvalance contrairement a un spécialiste </p>
-         <h2>pour finnir voici une petite vidéo illustrative qui montre comment je l'image en train de codder chez lui </h2>
-         
+
+         <details>
+            <summary>
+               easter egg
+            </summary>
+         <h2>ps c'est cels la ça musique preférez mais il ne l'assume pas </h2>
+         <iframe width="500" height="400" src="https://www.youtube.com/embed/9bZkp7q19f0?autoplay=1&mute=1" title="PSY - GANGNAM STYLE(강남스타일) M/V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         </details>
+           <a href="#" onclick="toggle()">Close</a>
         </div>
         
      
