@@ -30,7 +30,16 @@
            <p>j'ai connue antoine il n'ya que quelque jour a la rentrée du coup nous avons fait des traveaux ensemble</p>
            <p>donc j'apprend tourjour a le connaitre je ne sait pour l'instant pas grand chose mais je sais que lui et yanis vienne du même lycée </p>
            <p>j'ai récament qu'il aimait beaucoup la musique </p>
-           
+           <figure>
+    <figcaption>Listen to the T-Rex:</figcaption>
+    <audio
+        controls
+        src="/media/cc0-audio/t-rex-roar.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+    </audio>
+</figure>
+
            <a href="#" onclick="toggle()">Close</a>
         </div>
         
