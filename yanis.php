@@ -10,6 +10,9 @@
    <link rel="icon" type="image/png" href="/img/YanisCartoon.jpg" />
 </head>
 <body>
+
+<?php include_once 'PHP/menu.php'; ?>
+
    <div class="container" id="blur">
       <div class="card">
          <div class="containt">
