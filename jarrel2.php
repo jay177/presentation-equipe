@@ -28,6 +28,8 @@
            <p>Jarrel à 21 ans et étudie à l'IIM Digital School en Coding & Digital Innovation afin de pouvoir devenir Chef De Projet</p>
            <p>Il est à l'IIM dans le but d'accomplir ses projets professionels. Jarrel est une personne agréable et patiente.</p>
            <p>Lorsqu'on a pas forcement compris quelque chose Jarrel propose son aide afin de nous expliquer qu'elles sont les consignes pour réussir le mieux possible</p>
+           <p> Jarrel aime faire de la cuisine ainsi que les jeux video. Il aile beaucoup regarder et lire des animer. <p>
+            <p>Il aimerait etre Developpeur 3 plus tard dans son futur.</p>
            <br>
            <a href="#" onclick="toggle()">Fermer</a>
         </div>
