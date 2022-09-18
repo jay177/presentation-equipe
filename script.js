@@ -6,8 +6,6 @@ imgbx.forEach(popup => popup.addEventListener('click', () =>
 
 
 
-
-
 function toggle(){
     var blur = document.getElementById('blur')
     blur.classList.toggle('active');
@@ -15,3 +13,7 @@ function toggle(){
     popup.classList.toggle('active');
     
 }
+
+
+
+
