@@ -41,8 +41,10 @@
 </figure>
 
          <h2>j'spere que vous vous avez appréciez ce morceaux maintenant passons au ambition d'antoine </h2>
-
-           <a href="#" onclick="toggle()">Close</a>
+         <p>il a pour ambition de devenir un devloppeur full stack c'est a dire un devellopeur </p>
+         <p>maitrisanant a certain nombre de language ce qui lui permmetra une grange polyvalance contrairement a un spécialiste </p>
+         <h2>pour finnir voici une petite vidéo illustrative qui montre comment je l'image en train de codder chez lui </h2>
+         
         </div>
         
      
