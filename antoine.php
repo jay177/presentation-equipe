@@ -34,7 +34,7 @@
     <figcaption>je vous mets l'un des morceaux favorie d'antoine </figcaption>
     <audio
         controls
-        src="/media/cc0-audio/t-rex-roar.mp3">
+        src="song/boss.mp3">
             votre navigateur ne supporte pas cette 
             <code>audio</code> element.
     </audio>
