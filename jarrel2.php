@@ -25,6 +25,8 @@
         <div id="popup">
            <h2>Presentation Jarrel</h2>
            <p>Jarrel à 21 ans et étudie à l'IIM Digital School en Coding & Digital Innovation afin de pouvoir devenir Chef De Projet</p>
+           <p>Il est à l'IIM dans le but d'accomplir ses projets professionels. Jarrel est une personne agréable et patiente.</p>
+           <p>Lorsqu'on a pas forcement compris quelque chose Jarrel propose son aide afin de nous expliquer qu'elles sont les consignes pour réussir le mieux possible</p>
            <a href="#" onclick="toggle()">Fermer</a>
         </div>
 
