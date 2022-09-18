@@ -6,7 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Yanis</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="styleD.css">
    <link rel="icon" type="image/png" href="/img/YanisCartoon.jpg" />
 </head>
 <body>
@@ -21,7 +21,7 @@
             <a href="#" onclick="toggle()">+ d'info</a>
    
          </div>
-         <img src="/img/YanisCartoon.jpg" alt="Yanis">
+         <img src="img/YanisCartoon.jpg" alt="Yanis">
          
       </div>
    </div>  
