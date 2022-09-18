@@ -15,7 +15,7 @@
            <div class="containt">
               <h2>Jarrel</h2>
               <p> </p>
-              <a href="#" onclick="toggle()">Info</a>
+              <a href="#" onclick="toggle()">Information</a>
      
            </div>
            <img src="IMG/jarrel.png" alt="">
@@ -25,8 +25,10 @@
         <div id="popup">
            <h2>Presentation Jarrel</h2>
            <p>Jarrel à 21 ans et étudie à l'IIM Digital School en Coding & Digital Innovation afin de pouvoir devenir Chef De Projet</p>
-           <a href="#" onclick="toggle()">Close</a>
+           <a href="#" onclick="toggle()">Fermer</a>
         </div>
+
+        <script type="text/javascript" src="script.js"></script>
 
 </body>	
     	

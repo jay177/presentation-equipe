@@ -13,11 +13,10 @@ body, .header, .menu a {
   }
 
   .header {
-      position: fixed;
       width: 100%;
       display: flex;
       align-items: center;
-      background-color: white!;
+      background-color: white;
       justify-content: space-between;
   }
   
@@ -41,6 +40,7 @@ body, .header, .menu a {
     position: relative;
     display: block;
     transition: transform 0.4s;
+    background-color: white;
 }
 
   
