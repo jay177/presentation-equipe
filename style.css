@@ -128,7 +128,7 @@ font-size: 2.2em;
 line-height: 1em;
 }
 .container .card .containt p{
-color: black;
+color: blue;
 }
 .container .card .containt a{
 position: relative;
@@ -191,7 +191,7 @@ display: inline-block;
 margin-top: 20px;
 text-decoration: none;
 color: white;
-background: black;
+background: blue;
 }
 #popup, #popupp{
 position: fixed;
@@ -200,17 +200,16 @@ left: 50%;
 transform: translate(-50%,-50%);
 width: 600px;
 padding: 50px;
-box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
-background: black;
+box-shadow: 0 5px 30px blue;
+background: rgb(14, 83, 108);
 visibility: hidden;
 opacity: 0;
 transition: 0.5s;
 
-
-
 }
+
 #popup, #popupp h1{
-color: red;
+color: white;
 }
 #popup.active, #popupp.active{
 top: 50%;
@@ -221,3 +220,47 @@ transition: 0.5s;
 }
 
 /*FIN BODY*/
+
+/*FOOTER*/ 
+
+footer{
+  background: linear-gradient(45deg,black ,blue);
+  color: aliceblue;
+  width: 100vw;
+  padding-top: 20px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer h3{
+  text-transform: capitalize;
+}
+
+.footer p{
+  display: flex;
+  margin: 1rem;
+}
+
+.social_media{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 2rem 0;
+}
+
+.social_media li{
+  margin: 0 10px;
+}
+
+.social_media a{
+  color: aliceblue;
+}
+
+/*FIN FOOTER*/
