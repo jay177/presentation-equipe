@@ -23,7 +23,7 @@
       </div>
    </div>  
       <div id="popup">
-         <h2>L'histoire de Yanis </h2>
+         <h2>This is Yanis</h2>
          <p>Yanis a 20 ans et est passioné de sport, plus particulièrement de combat. Depuis petit il pratique le judo et mais désormais il fait du Jijutsu Brésilien. Il a pour but de devenir développeur Full Stack, c'est pour ça qu'il a intégré l'axe Coding & Digital Innovation à l'IIM.</p>
          <button class="buttons" href="#" onclick="toggle()">Retirer</button>
       </div>
