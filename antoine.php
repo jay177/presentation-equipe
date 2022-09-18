@@ -19,7 +19,7 @@
               <a href="#" onclick="toggle()">info</a>
      
            </div>
-           <img src="img/antoine-removebg-preview.png" alt="">
+           <img src="IMG/antoine-removebg-preview.png" alt="">
            
         </div>
      </div>
