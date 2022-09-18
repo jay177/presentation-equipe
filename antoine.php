@@ -25,12 +25,12 @@
      </div>
      
         <div id="popup">
-           <h2>L'histoire de Antoine </h2>
-           <p>j'ai connue antoine il n'ya que quelque jour a la rentrée du coup nous avons fait des traveaux ensemble</p>
-           <p>donc j'apprend tourjour a le connaitre je ne sait pour l'instant pas grand chose mais je sais que lui et yanis vienne du même lycée </p>
-           <p>j'ai récament qu'il aimait beaucoup la musique </p>
+           <h2>L'histoire d’Antoine </h2>
+           <p>J'ai connu Antoine il y’a quelques jours à la rentrée nous avons donc fait des travaux ensemble.</p>
+           <p>Ainsi, nous sommes toujours entrain de faire connaissances. Je ne le connais pas encore énormément mais je sais que lui et yanis viennent du même lycée.</p>
+           <p>De plus, j'ai récemment appris qu'il aimait beaucoup la musique. </p>
            <figure>
-    <figcaption>je vous mets l'un des morceaux favorie d'antoine </figcaption>
+    <figcaption>Je vous joint l'un des morceaux favoris d'Antoine. </figcaption>
     <audio
         controls
         src="song/boss.mp3">
@@ -39,15 +39,15 @@
     </audio>
 </figure>
 
-         <h2>j'spere que vous vous avez appréciez ce morceaux maintenant passons au ambition d'antoine </h2>
-         <p>il a pour ambition de devenir un devloppeur full stack c'est a dire un devellopeur </p>
-         <p>maitrisanant a certain nombre de language ce qui lui permmetra une grange polyvalance contrairement a un spécialiste </p>
+         <h2>J’espère que vous vous avez apprécié ce morceaux, autant que nous, maintenant, passons aux ambitions d'Antoine </h2>
+         <p>Il a pour but de devenir un développeur full stack c'est à dire un développeur  </p>
+         <p>maîtrisant un certain nombre de languages, ceci lui permettrai une polyvalence à toute épreuve contrairement a un spécialiste qui se concentrerait sur une tâche précise.  </p>
 
          <details>
             <summary>
                easter egg
             </summary>
-         <h2>ps c'est cels la ça musique preférez mais il ne l'assume pas </h2>
+         <h2>Ps: c'est celle là sa musique préférée mais il ne l'assume pas </h2>
          <iframe width="500" height="400" src="https://www.youtube.com/embed/9bZkp7q19f0?autoplay=1&mute=1" title="PSY - GANGNAM STYLE(강남스타일) M/V" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
          </details>
            <a href="#" onclick="toggle()">Close</a>
