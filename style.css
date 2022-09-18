@@ -1,7 +1,71 @@
 *{
     margin: 0;
     padding: 0;
+
+    box-sizing: border-box;
 }
+body{
+    background: linear-gradient(45deg,rgb(32, 89, 175),black);
+}
+/*NAVBAR*/
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    width:  100%;
+    margin: 0 25px;
+    list-style: none;
+}
+
+.menu  li {
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+.menu a {
+  font-size: 18px;
+  font-weight: 500;
+  color: #003fe6;
+  text-decoration: none;
+  position: relative;
+  display: block;
+  transition: transform 0.4s;
+  background-color: white;
+}
+
+
+.menu  a::before {
+    content: attr(data-text);
+    position: absolute;
+    top: 100%;
+}
+
+.menu  a:hover {
+    transform: translateY(-100%);
+}
+
+.menu  li a:after {
+    content: '';
+    height: 2px;
+    width: 0px;
+    background-color: rgb(50, 196, 240);
+    position: absolute;
+    bottom: -22px;
+    right: 0;
+    transition: 0.3s width ease-in-out;
+}
+
+.menu  li a:hover:after, .menu  li a.active:after {
+    width: 100%;
+}
+
+/*FIN NAVBAR*/
 
 
 .container{
@@ -10,7 +74,7 @@
     min-height: 100vh;
     align-items: center;
     display: flex;
-
+    
 }
 .container .card{
     position: relative;
@@ -21,14 +85,14 @@
     transition: 0.5s;
     justify-content: flex-start;
     align-items: center;
-    background: linear-gradient(45deg,black ,red);
+    background: linear-gradient(45deg,black ,rgb(32, 89, 175));
 }
 .container .card img{
     position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: 400px;
+    height: 350px;
     transition: 0.5S;
 }
 .container .card:hover img{
@@ -38,7 +102,7 @@
 }
 .container .card .containt{
     position: relative;
-    width: 50%;
+    width: 50%;	
     left: 20%;
     padding: 20px 20px 20px 40px;
     transition: 0.5s;
@@ -138,16 +202,15 @@
 
 }
 #popup, #popupp h1{
-    color: red;
-
+    color: aliceblue;
 }
 #popup.active, #popupp.active{
     top: 50%;
     visibility: visible;
     opacity: 1;
     transition: 0.5s;
-
 }
+
 footer{
     background: linear-gradient(45deg,black ,rgb(0, 38, 96));
     color: aliceblue;
@@ -187,3 +250,6 @@ footer{
 .social_media a{
     color: aliceblue;
 }
+
+
+
